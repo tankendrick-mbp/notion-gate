@@ -15,4 +15,4 @@ export function middleware(req: NextRequest) {
   return NextResponse.redirect(process.env.NOTION_URL!);
 }
 
-export const config = { matcher: ["/notion-gate"] };
+export const config = { matcher: ["/notion-gate/notion-gate"] };
